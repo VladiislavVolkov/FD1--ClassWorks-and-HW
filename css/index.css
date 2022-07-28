@@ -4,35 +4,35 @@ body {
 
 .div1 {
     background: red;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     cursor: default;
 }
 
 .div2 {
     background: rgb(45, 182, 79);
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     cursor: progress;
 }
 
 .div3 {
     background: rgb(99, 23, 114);
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     cursor: text;
 }
 
 .div4 {
     background: rgb(172, 78, 85);
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     cursor: pointer;
 }
 
 .div5 {
     background: rgb(54, 16, 190);
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     cursor: wait;
 }
