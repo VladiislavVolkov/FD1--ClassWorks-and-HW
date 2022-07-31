@@ -1,0 +1,21 @@
+body{
+    width: 230px;
+    margin: auto;
+}
+
+h1{
+    background-color: rgb(225, 235, 247);
+    text-transform: uppercase;
+}
+
+.text1{
+    background-color: rgb(241, 213, 151);
+}
+
+.text2{
+    background-color: rgb(247, 189, 189);
+}
+
+.text3{
+    background-color: rgb(199, 247, 236);
+}
