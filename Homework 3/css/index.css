@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nokora';
+    src: url(../fonts/Nokora/Nokora-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Abril_Fatface';
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url(../fonts/Staatliches/Staatliches-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_Alternates';
+    src: url(../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'BhuTuka_Expanded_One';
+    src: url(../fonts/BhuTuka_Expanded_One/BhuTukaExpandedOne-Regular.ttf);
+}
+
+.block {
+    width: 200px;
+    height: 120px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+}
+
+.b1 {
+    background-color: rgb(205, 92, 92);
+    color: white;
+    font-family: 'Oswald', Courier, monospace;
+    font-size: 20px;
+}
+
+.b2 {
+    background-color: hsl(146, 50%, 36%);
+    color: white;
+    font-family: 'Lobster', Courier, monospace;
+    font-size: 22px;
+}
+
+.b3 {
+    background-color: rgb(0, 128, 128);
+    color: white;
+    font-family: 'Nokora', Courier, monospace;
+    font-size: 22px;
+
+}
+
+.b4 {
+    background-color: hsla(300, 47%, 75%, 1);
+    color: white;
+    font-family: 'Pacifico', Courier, monospace;
+    font-size: 19px;
+}
+
+.b5 {
+    background-color: rgb(255, 228, 225);
+    color: black;
+    font-family: 'Abril_Fatface', Courier, monospace;
+    font-size: 19px;
+}
+
+.b6 {
+    background-color: rgb(25%, 41%, 88%, 1);
+    color: white;
+    font-family: 'Staatliches', Courier, monospace;
+    font-size: 21px;
+}
+
+.b7 {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    font-family: 'Montserrat_Alternates', Courier, monospace;
+    font-size: 19px;
+}
+
+.b8 {
+    background-color:hsl(80, 61%, 50%);
+    color: white;
+    font-family: 'BhuTuka_Expanded_One', Courier, monospace;
+    font-size: 19px;
+}
+
+.b9 {
+    background-color: rgb(255, 140, 0);
+    color: white;
+    font-family: 'Lobster', Courier, monospace;
+    font-size: 19px;
+}
+
+.b10 {
+    background-color: rgb(112, 128, 144);
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 19px;
+}
