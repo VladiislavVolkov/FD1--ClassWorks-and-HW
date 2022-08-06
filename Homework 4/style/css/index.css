@@ -3,6 +3,11 @@ body{
     background-color: white;
 }
 
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src: url(../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+
 .div_left {
     background: url('../img/ramka_left.png') repeat-y left;
 }
