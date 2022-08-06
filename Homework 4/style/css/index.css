@@ -1,0 +1,72 @@
+body{
+    margin: 25px;
+    background-color: white;
+}
+
+.div_left {
+    background: url('../img/ramka_left.png') repeat-y left;
+}
+
+.div_right {
+    background: url('../img/ramka_right.png') repeat-y right ;
+}
+
+.div_top {
+    background: url('../img/ramka_top.png') repeat-x top ;
+}
+
+.div_bottom {
+    background: url('../img/ramka_bottom.png') repeat-x bottom ;
+}
+
+.div_left_bottom {
+    background: url('../img/ramka_left_bottom.png') no-repeat left bottom ;
+}
+
+.div_right_bottom {
+    background: url('../img/ramka_right_bottom.png') no-repeat right bottom ;
+}
+
+.div_left_top {
+    background: url('../img/ramka_left_top.png') no-repeat left top ;
+}
+
+.div_right_top {
+    background: url('../img/ramka_right_top.png') no-repeat right top ;
+}
+
+.text_1 {
+    padding: 85px 85px 10px 85px;
+    font-size: 37px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.text_1:hover {
+    color: rgb(11, 156, 167);
+    transition: 0.8s;
+}
+
+.text_1::first-letter {
+    color: rgb(11, 156, 167);
+}
+
+.text_2 {
+    padding: 10px 85px 85px 85px;
+    font-size: 37px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.text_2:hover {
+    color: rgb(11, 156, 167);
+    transition: 0.8s;
+}
+
+.text_2::first-letter {
+    color: rgb(11, 156, 167);
+}
+
+
