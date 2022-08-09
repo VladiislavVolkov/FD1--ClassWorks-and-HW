@@ -1,8 +1,6 @@
 body {
-    background-image: url('img_2.jpg');
-
-
-
+    background-image: url('1.jpg');
+    background-size: cover;
 }
 
 .bg {
@@ -10,18 +8,18 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: justify;
     padding: 100px;
-    margin:100px;
-
-    background-color: rgba(255, 255, 255, 0.6);
-
-    width: 50%;
+    color:rgba(240, 248, 255, 0.1);
+    margin:0px 200px 100px 200px;
+    border-left: solid rgba(255, 255, 255, 0.7) 20px;
+    border-right: solid rgba(255, 255, 255, 0.7) 20px;
+    border-bottom: solid rgba(255, 255, 255, 0.7) 20px;
 }
 
 .t {
-    font-size: 55px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 160px;
+    font-family: Impact, fantasy;
     text-align: center;
-    padding: 30px;
-    margin:100px;
-    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0px 60px 0px 60px;
+    margin:100px 200px 0px 200px;
+    background-color: rgba(255, 255, 255, 0.7);
 }

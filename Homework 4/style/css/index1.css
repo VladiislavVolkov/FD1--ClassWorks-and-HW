@@ -1,0 +1,84 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.col1 {
+    width: 100px; 
+    height: 100px;
+    background-image: url('../img/ramka.png');
+    background-position: 0px 0px; 
+}
+
+.col7 {
+    width: 100px; 
+    height: 100px;
+    background-image: url('../img/ramka.png');
+    background-position: 0px 100px; 
+}
+
+.col4 {
+    width: 100px; 
+    height: 100px;
+    background-image: url('../img/ramka.png');
+    background-position: -318px 150px; 
+    background-repeat: repeat-y;
+}
+
+.col6 {
+    width: 100px; 
+    height: 100px;
+    background-image: url('../img/ramka.png');
+    background-position: 63px 150px; 
+    background-repeat: repeat-y;
+}
+
+.col2 {
+    background-image: url('../img/ramka.png');
+    background-repeat: repeat-x;
+    background-position: -100px -408px; 
+}
+
+.col8 {
+    background-image: url('../img/ramka.png');
+    background-repeat: repeat-x;
+    background-position: -100px 64px; 
+}
+
+.col3 {
+    width: 100px; 
+    height: 100px;
+    background-image: url('../img/ramka.png');
+    background-position: 100px 0px; 
+}
+
+.col9 {
+    width: 100px; 
+    height: 100px;
+    background-image: url('../img/ramka.png');
+    background-position: 100px -344px; 
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src: url(../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+
+.text_1 {
+    font-size: 37px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.text_1:hover {
+    color: rgb(214, 20, 53);
+    transition: 0.8s;
+}
+
+.text_1::first-letter {
+    color: rgb(214, 20, 53);
+}
+
+
+
