@@ -40,6 +40,7 @@ table {
     background-image: url('../img/ramka.png');
     background-repeat: repeat-x;
     background-position: -100px -408px; 
+    object-fit: fill;
 }
 
 .col8 {
