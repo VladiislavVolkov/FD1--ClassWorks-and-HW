@@ -27,7 +27,7 @@ body {
     background: rgb(172, 78, 85);
     width: 150px;
     height: 150px;
-    cursor: pointer;
+    cursor: progress;
 }
 
 .div5 {
