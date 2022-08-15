@@ -1,0 +1,143 @@
+.table {
+    width: 100%;
+    background-color: rgb(155, 151, 151);
+    display: table;
+    border: none;
+}
+
+.caption {
+    display: table-caption;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+}
+
+.thead {
+    display: table;
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+}
+
+.thead_th_1 {
+    color: yellow;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.thead_th_2 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tbody {
+    display: table;
+    background-color: rgb(163, 192, 33);
+    width: 100%;
+}
+
+.tbody_th_left {
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+    padding: 0;
+    background-color: rgb(56, 56, 56);
+}
+
+.tbody_th_center {
+    display: table-cell;
+    width: 60%;
+    vertical-align: top;
+    padding: 0;
+    background-color: rgb(231, 230, 230);
+}
+
+.tbody_th_right {
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+    padding: 0;
+    background-color: rgb(56, 56, 56);
+}
+
+.tfoot {
+    display: table;
+    background-color: rgb(59, 204, 204);
+    width: 100%;
+}
+
+.tfoot_th_center {
+    display: table-cell;
+    width: 100%;
+    background-color: rgb(231, 230, 230);
+}
+
+.thead_th {
+    display: table-cell;
+    width: 19%;
+    vertical-align: top;
+    padding: 0;
+    color: black;
+    background-color: wheat;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tr_1 {
+    width: 100%;
+    margin-bottom: 15px;
+    display: table;
+}
+
+.img_left {
+    width: 87%;
+    margin: 5%;
+    border: rgb(148, 146, 146) solid 2px;
+}
+
+.text_1 {
+    color: yellow;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+P {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text_2 {
+    color: rgb(73, 194, 26);
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px 0 10px;
+    0px;
+}
+
+.text_center {
+    text-align: justify;
+    font-weight: normal;
+    color: black;
+    padding: 15px;
+}
+
+.img_center {
+    width: 50%;
+    margin: 3%;
+    float: right;
+    border: rgb(148, 146, 146) solid 2px;
+}
+
+h3 {
+    margin: 3%;
+}
