@@ -1,0 +1,112 @@
+table {
+    width: 100%;
+}
+
+caption {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+thead {
+    background-color: rgb(56, 56, 56);
+}
+
+thead h1 {
+    color: yellow;
+    font-style: italic;
+}
+
+thead h2 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+tbody {
+    vertical-align: top;
+}
+
+tbody h1 {
+    color: yellow;
+    font-size: 16px;
+    border-bottom: 1px solid white;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+tbody h2 {
+    color: rgb(23, 216, 23);
+    font-size: 16px;
+    border-bottom: 1px solid white;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+tbody .img_left {
+    width: 87%;
+    margin: 5%;
+    border: rgb(148, 146, 146) solid 2px;
+}
+
+tbody .img_center {
+    width: 50%;
+    margin: 3%;
+    float: right;
+    border: rgb(148, 146, 146) solid 2px;
+}
+
+td h3 {
+    color: rgb(180, 25, 25);
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.text {
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.p1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.left {
+    width: 20%;
+    background-color: rgb(56, 56, 56);
+}
+
+.center {
+    width: 60%;
+    background-color: rgb(231, 230, 230);
+    float: none;
+}
+
+.right {
+    width: 20%;
+    background-color: rgb(56, 56, 56);
+}
+
+tfoot {
+    height: 20px;
+    background-color: rgb(124, 124, 124);
+}
+
+.table2 {
+    color: black;
+    background-color: wheat;
+    margin-bottom: 10px;
+}
+
+.table2 th:hover {
+    color: wheat;
+    background-color: black;
+    margin-bottom: 10px;
+}
