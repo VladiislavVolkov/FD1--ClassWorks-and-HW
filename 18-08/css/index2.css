@@ -1,0 +1,7 @@
+#main>.main div:not([class]) {
+    color: rgb(60, 212, 40);
+    font-size: 25px;
+    font-weight: bolder;
+    border: 2px solid grey;
+    background-color: rgb(156, 238, 187);
+}
