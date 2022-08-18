@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header {
+    width: inherit;
+    height: 200px;
+}
+
+.body {
+    width: inherit;
+    height: 500px;
+}
+
+.body div {
+    border: 3px rgb(43, 24, 153) solid !important;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer {
+    width: inherit;
+    height: 100px;
+}
+
+.main div {
+    border: 1px red solid;
+    box-sizing: border-box;
+}
+
+.body .body_left {
+    width: 20%;
+    height: inherit;
+    float: left;
+}
+
+.body .body_right {
+    width: 20%;
+    height: inherit;
+    float: right;
+}
+
+.body .body_center {
+    width: 60%;
+    height: inherit;
+}
