@@ -27,4 +27,6 @@ html, body {
 
 .star:hover, .star:hover ~ .star {
     background: url("../img/star1.png") center space;
+    transform: scale(130%);
+    transition: background 0.2s, transform 0.5s;
 }
