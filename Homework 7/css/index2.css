@@ -1,0 +1,55 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    width: inherit;
+}
+
+.content {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 850px;
+    height: 850px;
+    background: #f5f0ed;
+}
+
+.table {
+    display: table;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 800px;
+    height: 800px;
+    border: none;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.table__row {
+    display: table-row;
+}
+
+.table__cell-td {
+    background: #f8867a;
+    display: table-cell;	
+	width: 10%;
+	padding: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.table__cell-td:hover {
+    background: #b9be6d !important;
+    color: white;
+}
+
+.table__row:hover > .table__cell-td {
+    background: #fcb8b0;
+}
+
