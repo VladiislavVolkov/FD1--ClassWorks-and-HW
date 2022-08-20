@@ -49,6 +49,6 @@ html, body {
 }
 
 .table__row:hover > .table__cell-td {
-    background: #fcb8b0;
+    background: #ffc5be;
 }
 
