@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container { 
+    max-width: 1000px;
+}
+.content {
+    background: #eee;
+    height: 100vh;   
+    font-size: 2vw;
+}
+
+.body {
+    width: auto;
+    font-size: 0;    
+}
+
+.body__left {
+    display: inline-block;
+    width: 20vw;
+    background: bisque;
+    font-size: 2vw;
+}
+
+.body__right {
+    display: inline-block;
+    width: 20vw;
+    background: rgb(203, 201, 249);
+    font-size: 2vw;
+}
+
+.body__center {
+    display: inline-block;
+    width: 60vw;
+    background: greenyellow;
+    font-size: 2vw;
+}
+
+.header {
+    background:  #274546;
+    height: 22vw;
+    color: #efeee5;
+    padding-top: 2vw;
+}
+
+.header__name {
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.header__subname {
+    text-align: right;
+    padding-right: 6vw;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header__menu {
+    background: #efeee5;
+    margin-top: 5vw;
+}
+
+#menu {
+    width: 100vw;
+    text-align: center;
+    background: #efeee5;
+}
+
+#menu li { 
+    display: inline; 
+}
+
+#menu a {
+    color: #274546;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#menu a:hover {
+       color: white;
+       background: #274546;
+       transition: 0.5s;
+}
