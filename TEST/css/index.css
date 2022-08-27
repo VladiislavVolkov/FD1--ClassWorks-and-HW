@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.content {
+
+    height: 100vh;
+    padding-top: 30vh;
+    color: white;
+    padding-left: 15vw;
+    position: relative;
+}
+
+.text {
+    display: inline-block;
+    font-size:  4vw;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    padding-bottom: 2vw;
+    border-bottom: 1vw solid white;
+}
+
+.bg { background: url('https://images.squarespace-cdn.com/content/v1/5a285c22f14aa1c12b62ed30/1520283658968-PATWVI9J86TEKTJOQ6AN/Mountains+pic.jpeg');
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+position: absolute;
+background-size: cover;
+z-index: -1;
+filter:  saturate(20%) brightness(50%);
+}
+
+.text::after {
+    content: '';
+    padding-right: 7vw;
+}
