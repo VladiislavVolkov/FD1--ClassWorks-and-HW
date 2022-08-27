@@ -1,0 +1,13 @@
+*{
+    font-size: 40px;
+}
+
+#radio1 {
+    border: 2px green solid;
+    margin: 20px;
+}
+
+#radio1 [name="1"] {
+    background-color: red;
+}
+
