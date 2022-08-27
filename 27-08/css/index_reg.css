@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reg_form {
+    background-color: rgb(100, 190, 135);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.left {
+    float: left;
+    width: 100px;
+}
+
+.left_1 {
+    float: left;
+    width: 80px;
+}
+
+.H {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.reg__1, 
+.reg__2, 
+.reg__3, 
+.reg__4, 
+.reg__5 {
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #eee;
+    width: 300px;
+} 
+
+.reg__5 {
+    text-align: center;
+}
+
+input {
+    display: block;
+}
+
