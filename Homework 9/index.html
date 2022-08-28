@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    
+    <div class="main__name" id="#">Анкета для записи в Визовый центр</div>
+
+    <div class="content">
+
+        <div class="content__name">
+            Паспортные данные:
+        </div>
+
+        <form action="" method="post" name="registration_form" target="_blank" class="main__regform">
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="firstname">Имя</label>
+                </div>
+                <div class="row__70">
+                    <input type="text" id="firstname" name="firstname" placeholder="Введите ваше имя" pattern="[А-Яа-яЁё]{2,}" required="required">
+                    <span class="error">Имя только на русском языке, состоящее не менее чем из двух букв.</span>
+                </div>
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="lastname">Фамилия</label>
+                </div>
+                <div class="row__70">
+                    <input type="text" id="lastname" name="lastname" placeholder="Введите вашу фамилию" pattern="[А-Яа-яЁё]{3,}" required="required">
+                    <span class="error">Фамилия только на русском языке, состоящая не менее чем из трех символов.</span>
+                </div>
+            </div>
+            
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="gender">Пол</label>
+                </div>
+                <div class="row__70">
+                    <div class="radio__text">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужчина</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Женщина</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">другое</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="date">Дата рождения</label>
+                </div>
+                <div class="row__70">
+                    <input type="date" id="date" name="date" placeholder="Дата рождения" >
+                </div>
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="national">Гражданство</label>
+                </div>
+                <div class="row__70">
+                    <select id="national" name="national" required="required" >
+                        <option value="n_0"></option>
+                        <option value="n_belarus">Беларусь</option>
+                        <option value="n_belarus">Украина</option>
+                        <option value="n_belarus">Грузия</option>
+                        <option value="n_belarus">Турция</option>
+                        <option value="n_other">Другое</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="numbertel">Номер телефона</label>
+                </div>
+                <div class="row__70">
+                    <input type="tel" id="numbertel" required="required" name="numbertel" placeholder="Телефон" pattern="+375-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" minlength="19" maxlength="19" />
+                    <span class="error">Пожалуйcта введите номер телефона в формате: +375 (xx) xxx-xx-xx</span>
+                </div>
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="numbertel">E-mail</label>
+                </div>
+                <div class="row__70">
+                    <input type="email" id="email" required="required" name="email" placeholder="E-mail"/>
+                    <span class="error">Пожалуйcта введите E-Mail в формате: example@site.com</span>
+                </div>
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="admin_passport">Паспорт</label>
+                </div>
+                <div class="row__70">
+                    <textarea id="admin_passport" required="required" name="admin_passport" placeholder="Ведите номер и серию паспорта, а также индификационный номер" style="height:100px"></textarea>
+                </div>
+            </div>
+
+            <div class="content__name">
+                Страны которые планируете посетить:
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="admin_passport">Укажите страны Евросоюза</label>
+                </div>
+                <div class="row__70">
+                    <div class="radio__text2">
+                        <input type="checkbox" id="pl" name="country" value="pl">
+                        <label for="pl">Польша</label><br>
+                        <input type="checkbox" id="cz" name="country" value="cz">
+                        <label for="cz">Чехия</label><br>
+                        <input type="checkbox" id="lv" name="country" value="lv">
+                        <label for="lv">Латвия</label>
+                    </div>
+                    <div class="radio__text2">
+                        <input type="checkbox" id="lt" name="country" value="lt">
+                        <label for="lt">Литва</label><br>
+                        <input type="checkbox" id="ge" name="country" value="ge">
+                        <label for="ge">Германия</label><br>
+                        <input type="checkbox" id="sl" name="country" value="sl">
+                        <label for="sl">Словения</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__name">
+                Дополнительная информация:
+            </div>
+
+            <div class="content__row">
+                <div class="row__30">
+                    <label for="EU">Планируемое количество дней пребывания (1-90 дней)</label>
+                </div>
+                <div class="row__70">
+                    <input type="number" id="numbertravel" required="required" name="numbertravel" min="1" max="90" class="date">
+                    <span class="error">Пожалуйcта введите количество дней: min - 1 день, max - 90 дней</span>
+                </div>
+            </div>
+
+            <div class="content__row">
+                <input type="submit" value="Отправить данные">
+                <input type="reset" value="Очистить данные">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
