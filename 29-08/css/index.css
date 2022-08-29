@@ -1,0 +1,15 @@
+#pos {
+    width: 500px;
+    height: 500px;
+    background: cadetblue;
+    position: static;
+}
+
+#pos2 {
+    width: 300px;
+    height: 300px;
+    background: rgb(143, 84, 111);
+    position: relative;
+    top: -100px;
+    left: 500px;
+}
