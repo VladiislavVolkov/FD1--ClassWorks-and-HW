@@ -61,5 +61,5 @@ body {
 .content__centerone .content__imgone:hover {
     z-index: 10;
     background: rgb(255, 255, 255, 0.7);
-    border-radius: 40%;
+    border-radius: 30%;
 }
