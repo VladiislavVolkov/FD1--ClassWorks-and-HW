@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr;
+    color: rgb(0, 0, 0);
+}
+
+div {
+    background: #b6d8c8;
+    border: rgb(35, 175, 175) 1px solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
