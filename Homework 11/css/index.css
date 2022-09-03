@@ -27,6 +27,10 @@ body {
         font-size: calc(10px + 8 * (100vw - 320px) / 680);
     }
 
+    .mobile__version {
+        display: none;
+    }
+
 }
 
 @media (max-width: 412px) {
@@ -167,4 +171,11 @@ body {
     position: absolute;
     opacity: 0.1;
     z-index: -1;
+}
+
+.mobile__version {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 1em;
 }
