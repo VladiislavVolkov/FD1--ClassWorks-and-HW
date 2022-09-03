@@ -27,10 +27,6 @@ body {
         font-size: calc(10px + 8 * (100vw - 320px) / 680);
     }
 
-    .mobile__version {
-        display: none;
-    }
-
 }
 
 @media (max-width: 412px) {
@@ -77,6 +73,14 @@ body {
         background: linear-gradient(90deg, rgba(129, 188, 238, 1) 0%, rgba(35, 110, 198, 1) 100%);
         border-radius: 1em;
         padding: 1em 0;
+    }
+
+    .mobile__version {
+        text-align: center;
+        font-size: 10px;
+        color: rgb(161, 161, 161);
+        margin-bottom: 1em;
+        display: block !important;
     }
 
 }
@@ -174,8 +178,5 @@ body {
 }
 
 .mobile__version {
-    text-align: center;
-    font-size: 10px;
-    color: rgb(161, 161, 161);
-    margin-bottom: 1em;
+    display: none;
 }
