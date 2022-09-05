@@ -1,0 +1,59 @@
+#wrapper {
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(29, 89, 107);
+    background: rgb(156, 238, 213);
+    border-radius: 10px;
+    position: relative;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(64, 65, 117);
+    border-radius: 10px;
+    border: 2px solid rgb(250, 250, 250);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: to_right;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(1,0,0,0);
+
+
+
+    /*transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-property: left;
+    transition-timing-function: cubic-bezier(0.3, 0.2, 0.3, 0.8);*/
+   
+}
+
+@keyframes to_right {
+    from {
+        left: 0px;
+        top:0px;
+    }
+    to {
+        left: 840px;
+        top:96px;
+    }
+}
+
+/*#wrapper:hover .box1 {
+    left: 40%;
+    top: 50px;
+    background: rgb(250, 250, 250);
+    border: solid 5px rgb(64, 65, 117);
+    border-radius: 50%;
+
+    transform: rotate(180deg);
+    transform: translate(300px, 100px);
+    transform: scale(2,2);
+    transform: matrix(2,0,0,2,1,1);
+    transform: skew(30deg, 30deg);
+    
+}*/
