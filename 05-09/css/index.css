@@ -5,6 +5,7 @@
     background: rgb(156, 238, 213);
     border-radius: 10px;
     position: relative;
+    
 }
 
 .box1 {
@@ -16,31 +17,43 @@
     position: absolute;
     top: 0;
     left: 0;
-    animation-name: to_right;
-    animation-duration: 3s;
-    animation-delay: 1s;
+
+
+    animation-name: to_right, to_bottom;
+    animation-duration: 20s, 10s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: cubic-bezier(1,0,0,0);
-
-
 
     /*transition-duration: 2s;
     transition-delay: 0.5s;
     transition-property: left;
     transition-timing-function: cubic-bezier(0.3, 0.2, 0.3, 0.8);*/
-   
-}
+   }
 
 @keyframes to_right {
     from {
-        left: 0px;
+        left:0px;
+    }
+    to {
+        left:840px;
+        }
+
+ /*   50% {
+        background: red;
+        top:96px;
+        border-radius: 50%;
+    }*/
+}
+
+@keyframes to_bottom {
+    from {
         top:0px;
     }
     to {
-        left: 840px;
-        top:96px;
-    }
+        top: 502px;
+        }
 }
 
 /*#wrapper:hover .box1 {
@@ -57,3 +70,5 @@
     transform: skew(30deg, 30deg);
     
 }*/
+
+/* https://docs.google.com/forms/d/1IjENEIZchqXG4h3wVeg0m9w47aTa_bQCxIBwMUvY1R0/viewform?edit_requested=true */
