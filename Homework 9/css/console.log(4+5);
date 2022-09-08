@@ -1,0 +1,6 @@
+console.log(4+5);
+const a=5;
+const b=9;
+console.log(a + b);
+const c = a+ b
+console.log(c);
