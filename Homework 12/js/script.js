@@ -28,7 +28,7 @@ while (true) {
 let years = prompt("Введите возраст в годах");
 let yearsDay = years * 365;
 let yearsAddFive = (+years + 5);
-let sex = confirm("Ваш пол - мужской? \n\nнажимая \"ДА\" - подверждаете мужской пол\nнажимая \"НЕТ\" - подверждаете женский пол");
+let sex = confirm("Ваш пол - мужской? \n\nнажимая \"ДА / OK\" - подтверждаете мужской пол\nнажимая \"НЕТ / CANCEL\" - подтверждаете женский пол");
     if (sex == true) {
         sex = "мужской";
     } else {
@@ -49,7 +49,7 @@ let pension;
         } 
     }
 console.log(lastName, firstName, threeName, years, yearsDay, yearsAddFive, sex, pension);
-alert (`Ниже указаны введенные ваши данные. \n \n
+alert (`Ниже указаны введенные данные. \n \n
         Ваше ФИО: ${lastName} ${firstName} ${threeName}.\n
         Ваш возраст в годах: ${years}.\n
         Ваш возраст в днях: ${yearsDay}.\n
