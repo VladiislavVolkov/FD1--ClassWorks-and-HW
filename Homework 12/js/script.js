@@ -1,73 +1,59 @@
-// // let i = "25";
-// // let ii = "50"
-// // let iii = (+i + +ii)
-// // console.log(i + ii);
-// // console.log(typeof i);
-// // console.log(iii);
-// // console.log(typeof iii);
-
-// // let result = "P" < "L";
-// // console.log(result);
-
-// // let a = "a";
-// // let b = "a";
-// // console.log(Boolean(a));
-
-// // console.log(undefined || '' || null);
-
-// // let distance = 2000;
-// // let summa = 700;
-// // let blizko = (distance<2100);
-// // console.log(blizko);
-// // console.log('two ' + ((summa>600) && ''));
-
-// // let a = prompt("a");
-// // let b = prompt("b");
-// // let d = ((b>a) && console.log(`LETS ${b} > ${a}`));
-// // console.log(`Вы видете этот текст, так как ${a} больше ${b}`);
-
-// console.log('35' + - "22");
-
-// console.log('35' * "22");
-
-// //console.log('558' > 22++);
+// let lastName = prompt("Введите вашу Фамилию");
+// let firstName = prompt("Введите вашe Имя");
+// let threeName = prompt("Введите вашe Отчество");
+// let years = prompt("Введите возраст в годах");
 
 
 
-// let usersCounter = 0;
-// let newUsers = usersCounter++;
-// console.log(newUsers);
+// Проверка ФИО на:  ничего
+//                   пустую строку
+//                   на пробелы (прочитал про этот метод в инете)
 
-// console.log(!false && 11 || 18 && !"");
-
-// let namee;
-// console.log(typeof namee);
-// console.log(namee ?? "No name")
-
-// // 1 - неверно, останется 35 - 22, т.к. если хотя бы один операнд является строкой, то второй будет также преобразован в строку (сложения чисел, в т.ч. и со знаком '-' - в данном примере не происходит); 3 -неверно, т.к. инкремент работает только с переменной; 4 - неверно потому, что постфиксная форма выполняет операцию уже после вывода первой переменной в консоль, в результате чего получается 0; для желаемого результата (1) необходима префиксная форма; 5 - неверно: в левой половине сравнения получается 11, в правой - 1, дальше идет сравнение, в результате которого побеждает первый результат, т.к. при результате true оператор ИЛИ || останавливается и возвращает исходное значение этого операнда.
+// Проверка возраста согласно ТК РБ в соответсвии с полом
 
 
-// let message = "Hello JS!";
-// let a = prompt("Ввведите число А");
-// let b = prompt("Ввведите число Б");
-// if (a > b) {
-//     console.log(`Так как тру - то ${message}`);
-// }
-// else {
-//     console.log(`Увы ${a} меньше ${b}!`)
-// }
 
-// if (1 === "1") {
-//     console.log('Истина!');
-// } else {
-//     console.log('Ложь!');
-// }
-
-// if (5 == "5") {
-//     console.log('Истина!');
-// } else {
-//     console.log('Ложь!');
-// }
-
-// let message = (true > false) ? 'Истина' : ' Ложь!';
-// console.log(message);
+while (true) {
+    lastName = prompt("Введите вашу Фамилию");
+    if (lastName !== null && lastName !== "" && lastName.trim()) break;
+}
+while (true) {
+    firstName = prompt("Введите вашe Имя");
+    if (firstName !== null && firstName !== "" && firstName.trim()) break;
+}
+while (true) {
+    threeName = prompt("Введите вашe Отчество");
+    if (threeName !== null && threeName !== "" && threeName.trim()) break;
+}
+let years = prompt("Введите возраст в годах");
+let yearsDay = years * 365;
+let yearsAddFive = (+years + 5);
+let sex = confirm("Ваш пол - мужской? \n\nнажимая \"ДА\" - подверждаете мужской пол\nнажимая \"НЕТ\" - подверждаете женский пол");
+    if (sex == true) {
+        sex = "мужской";
+    } else {
+        sex = "женский";
+    }
+let pension; 
+    if (sex == `мужской`) {
+        if (years >= 63) {
+            pension = ("да");
+        } else {
+            pension = ("нет");
+        }
+    } else {
+        if (years >= 58) {
+            pension = ("да");
+        } else {
+            pension = ("нет");
+        } 
+    }
+console.log(lastName, firstName, threeName, years, yearsDay, yearsAddFive, sex, pension);
+alert (`Ниже указаны введенные ваши данные. \n \n
+        Ваше ФИО: ${lastName} ${firstName} ${threeName}.\n
+        Ваш возраст в годах: ${years}.\n
+        Ваш возраст в днях: ${yearsDay}.\n
+        Через 5 лет Вам будет: ${yearsAddFive}.\n
+        Ваш пол: ${sex}\n
+        Вы на пенсии: ${pension}\n\n\n
+        Ура! Магия!:)`);
