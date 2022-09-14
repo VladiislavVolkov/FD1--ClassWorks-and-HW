@@ -125,3 +125,22 @@
 //     age--;
 // } while (age<30)
 // alert('Yes, i am big!');
+
+
+// let a = 4;
+// console.log(a);
+// let b = a++;
+// console.log(b);
+// console.log(a*b--);
+// console.log(b);
+
+// let a = '2';
+// let b = '12';
+// a = (Number(a));
+// b = (Number(b));
+// console.log(a > b) ;
+
+console.log(true && null && '2' || 5 );
+
+
+
