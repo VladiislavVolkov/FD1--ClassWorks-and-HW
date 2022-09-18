@@ -140,7 +140,59 @@
 // b = (Number(b));
 // console.log(a > b) ;
 
-console.log(true && null && '2' || 5 );
+// console.log(true && null && '2' || 5 );
+
+// const numbers = [1, 3, 5, 7, 9]
+// let i = 0
+// while (i < numbers.length) {
+//   const currentElement = numbers[i]
+//   console.log(currentElement * currentElement)
+//   i++
+// }
+
+// let a = '';
+// for (b = 0; b < 7; b++){
+// 	a += '***#***';
+// console.log(a);
+// }
+
+let result = '', line, row;
+	for(row = 1; row <= 8; row++) {
+		for(line = 1; line <= 8; line++) {
+			if(row % 2 == 0) {
+				if(line % 2 == 0) {
+					result+= '#';
+				} else {
+					result+= ' ';
+				}
+			} else {
+				if(line % 2 == 0) {
+					result+= ' ';
+				} else {
+					result+= '#';
+				}
+			}
+		}
+		result='';
+	}
 
 
+
+
+// let aaa = "#";
+// while (aaa.length <= 7){
+//    console.log(aaa);
+//    aaa += "1#2";
+// }
+
+// const arr = ['a'];
+// const str = 'qwerty';
+// const arr1 = str.split('');
+// const arr2 = str.split('').reverse();
+// const arr3 = arr1.concat(arr,arr2);
+// console.log(arr3);
+
+// const str = prompt ('name,age');
+// const arr = str.split(',');
+// console.log(`Hello, ${arr[0]}! You are ${arr[1]} years`);
 

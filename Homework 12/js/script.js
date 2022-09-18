@@ -71,7 +71,14 @@ let pension;
     // (sex == `мужской`) && (years >= 63) || (sex == `женский`) && (years >= 58) ? pension = "да" : pension = "нет";
 
 // вывод в консоль - это я для себя (тренировка:)
-console.log(lastName, firstName, threeName, years, yearsDay, yearsAddFive, sex, pension);
+console.log(lastName, 
+            firstName, 
+            threeName, 
+            years, 
+            yearsDay, 
+            yearsAddFive, 
+            sex, 
+            pension);
 
 alert (`Ниже указаны введенные данные. \n \n
         Ваше ФИО: ${lastName} ${firstName} ${threeName}.\n
