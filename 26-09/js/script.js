@@ -139,33 +139,50 @@
 // ask('Согласны ли Вы', agree, disagree10)
 
 
-function FizzBuzz(num, func1, func2, func3){
-    for (let i = 1; i <= num; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            func3()
-        }else if (i % 5 === 0){
-            func1()
-        }else if (i % 3 === 0){
-            func2()
-        }else {
-            console.log(i)
-        }
-    }
-}
 
-function showFizz() {
-    console.log('Fizz');
-}
 
-function showBuzz() {
-    console.log('Buzz');
-}
+// function FizzBuzz(num, func1, func2, func3){
+//     for (let i = 1; i <= num; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             func3()
+//         }else if (i % 5 === 0){
+//             func1()
+//         }else if (i % 3 === 0){
+//             func2()
+//         }else {
+//             console.log(i)
+//         }
+//     }
+// }
 
-function showFizzBuzz() {
-    console.log('FizzBuzz');
-}
+// function showFizz() {
+//     console.log('Fizz');
+// }
 
-FizzBuzz(100, showFizz, showBuzz, showFizzBuzz)
+// function showBuzz() {
+//     console.log('Buzz');
+// }
+
+// function showFizzBuzz() {
+//     console.log('FizzBuzz');
+// }
+
+// FizzBuzz(100, showFizz, showBuzz, showFizzBuzz)
+
+
+// function reverseNumber(n) {
+//     let a = String(n)
+//     let result = '';
+//     for (let i = a.length-1; i >= 0; i--) {
+//         result += a[i];
+//         console.log(result, i)
+//     }
+//     return result
+//         };
+    
+// let c = reverseNumber(prompt('Введите число, которое хотите "перевернуть":'));
+// alert(`"Перевернутое" число - ` + c);
+
 
 
 

@@ -156,25 +156,25 @@
 // console.log(a);
 // }
 
-let result = '', line, row;
-	for(row = 1; row <= 8; row++) {
-		for(line = 1; line <= 8; line++) {
-			if(row % 2 == 0) {
-				if(line % 2 == 0) {
-					result+= '#';
-				} else {
-					result+= ' ';
-				}
-			} else {
-				if(line % 2 == 0) {
-					result+= ' ';
-				} else {
-					result+= '#';
-				}
-			}
-		}
-		result='';
-	}
+// let result = '', line, row;
+// 	for(row = 1; row <= 8; row++) {
+// 		for(line = 1; line <= 8; line++) {
+// 			if(row % 2 == 0) {
+// 				if(line % 2 == 0) {
+// 					result+= '#';
+// 				} else {
+// 					result+= ' ';
+// 				}
+// 			} else {
+// 				if(line % 2 == 0) {
+// 					result+= ' ';
+// 				} else {
+// 					result+= '#';
+// 				}
+// 			}
+// 		}
+// 		result='';
+// 	}
 
 
 
@@ -195,4 +195,6 @@ let result = '', line, row;
 // const str = prompt ('name,age');
 // const arr = str.split(',');
 // console.log(`Hello, ${arr[0]}! You are ${arr[1]} years`);
+
+
 
