@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:link, :visited { 
+    text-decoration: none;
+    color: inherit;
+ }
+
+
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+}
+
+.full, section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border_b {
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 10px 6px -5px rgba(34, 60, 80, 0.11);
+    -moz-box-shadow: 0px 10px 6px -5px rgba(34, 60, 80, 0.11);
+    box-shadow: 0px 10px 6px -5px rgba(34, 60, 80, 0.11);
+}
+
+.nav,
+.mainnav,
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+}
+
+.nav_left,
+.nav_right,
+.nav_left_mini,
+.nav_right_mini {
+    padding: 7px 20px 0px 20px;
+}
+
+.nav_left_mini,
+.nav_right_mini {
+    display: none;
+}
+
+.nav_right {
+    background-color: #815460;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.nav_right_mini {
+    background-color: #815460;
+    margin-right: 20px;
+    padding: 0 30px;
+}
+.nav_right_mini img {
+    height: 32px;
+    align-items: center;
+}
+
+.navlist {
+    color: #919191;
+    font-size: 0.7em;
+    height: 25px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 4px solid #ffffff;
+}
+
+.navlist:not(:last-child) {
+    margin-right: 20px;
+}
+
+.navlist:hover {
+    border-bottom: 4px solid #815460;
+    color: #252525;
+}
+
+.nav_bg_1 {
+    border-bottom: 4px solid #815460;
+    color: #ffffff;
+}
+
+.nav_bg_1:hover {
+    border-bottom: 4px solid #ffffff;
+    color: #ffffff;
+}
+
+/* MAIN_NAVIGATION */
+
+.mainnav {
+    background: white;
+    height: 100px;
+}
+
+.nav_logo {
+    padding: 20px 0 20px 20px;
+}
+
+.logo {
+    height: 51px;
+    width: 400px;
+    background: url('../img/logo_big.png') no-repeat left;
+    background-size: contain;
+}
+
+.menu_big {
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.menu_list {
+    display: inline-block;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #252525;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.menu_small {
+    display: none;
+}
+
+.menu_list_small {
+    display: inline-block;
+    margin-right: 20px;
+    height: 40px;
+}
+
+.menu_list_small:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu_list_small img {
+height: 32px;
+}
+
+.menu_list:hover,
+.menu_list_small:hover  {
+    border-bottom: 4px solid #815460;
+}
+
+/* CENTER */
+/* CENTER */
+/* CENTER */
+
+main {
+    background: #cbcbcb;
+}
+
+.title {
+    padding: 20px 20px;
+}
+
+.title_main {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #393939;
+}
+
+.title_add {
+    font-size: 0.9em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #393939;
+    display: inline-block;
+    background: url('../img/arrow_1.png') no-repeat right;
+    background-size: 18px 18px;
+    padding-right: 25px;
+}
+
+.section_bg_1 {
+    background-color: #f7f7f7 ; 
+}
+
+.section_bg_2 {
+    background-color: #ffffff ; 
+}
+
+.section_bg_3{
+    background-color: #e4dfd9; 
+}
+
+.wrapper {
+    margin: 0 20px 20px 20px;
+
+}
+
+.grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+.wrapper_window {
+    background: #eeeeee;
+    min-height: 100px;
+}
+
+.grid_box_1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.grid_box_2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.grid_box_3 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.grid_box_6 {
+    grid-column: 4/5;
+    grid-row: 1/4;
+}
+
+.grid_border_left {
+    border-left: 15px solid #ffffff;
+}
+
+.grid_border_bottom {
+    border-bottom: 15px solid #ffffff;
+}
+
+
+.wr-1 {
+    background: #eeeeee url('../img/wrapper_1.jpg') right bottom;
+    height: 370px;
+}
+
+.wrapper_title {
+    background: #ffffff;
+    width: 35%;
+    height: 100%;
+    padding: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    min-height: 100px;
+    background: #252525;
+}
