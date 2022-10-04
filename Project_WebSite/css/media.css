@@ -70,6 +70,11 @@
         justify-content: flex-start;
     }
 
+    .sect_wrapper .wrapper_title {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .sect_bg_1 .sect_content .sect_wrapper {
         flex-direction: column;
     }
@@ -93,6 +98,10 @@
     .nav_top .mobile {
         display: flex;
     } 
+
+    .title_name3 {
+        display: none;
+    }
 
 }
 
