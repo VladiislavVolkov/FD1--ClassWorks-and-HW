@@ -1,0 +1,131 @@
+header {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+}
+
+.header_full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border_bottom_solid {
+    border-bottom: 1px solid rgb(193, 193, 193);
+    background: rgb(245, 245, 245);
+}
+
+.border_bottom_shadow {
+    box-shadow: 0px 10px 6px -5px rgba(34, 60, 80, 0.11);
+    -webkit-box-shadow: 0px 10px 6px -5px rgba(34, 60, 80, 0.11);
+    -moz-box-shadow: 0px 10px 6px -5px rgba(34, 60, 80, 0.11);
+}
+
+.nav_top,
+.nav_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_top_left,
+.nav_top_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.nav_top_right_mobile {
+    height: 30px;
+    width: 55px;
+    display: none;
+    background: #00a2b8;
+    margin-right: 20px;
+}
+
+.nav_top_right_mobile:hover {
+    background: #d4d4d4;
+}
+
+.nav_top_right_mobile img {
+    height: 28px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+.mobile {
+    display: none;
+}
+
+.nav_top_right {
+    background: #00a2b8;
+}
+
+.navlist {
+    color: #919191;
+    font-size: 0.73em;
+    letter-spacing: 0.15em;
+    height: 20px;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: inline-block;
+}
+
+.l1 {
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.navlist:not(:last-child) {
+    margin-right: 20px;
+}
+
+.nav_top_left .navlist:hover {
+    background: url('../img/bottom_color.png') repeat-x bottom;
+    color: #252525;
+}
+
+.nav_top_right:hover,
+.l1:hover {
+    color: #ffffff;
+    background: #919191;
+}
+
+.nav_bottom {
+    background: white;
+    height: 100px;
+}
+
+.nav_bottom_logo {
+    padding: 20px 0 20px 20px;
+}
+
+.logo_img {
+    height: 51px;
+    width: 400px;
+    background: url('../img/logo_big.png') no-repeat left;
+    background-size: contain;
+}
+
+.nav_bottom_menu {
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.menu_list {
+    display: inline-block;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #252525;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.menu_list:hover  {
+    border-bottom: 7px solid #00a2b8;
+}
