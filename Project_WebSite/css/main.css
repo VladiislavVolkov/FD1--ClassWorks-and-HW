@@ -100,7 +100,7 @@ section {
 
 .block_top {
     background: #cdcdcd;
-    height: 200px;
+    height: 150px;
  }
 
 .block_bottom {
@@ -110,7 +110,9 @@ section {
 .bottom_text {
     text-align: center;
     padding: 20px;
-    height: 170px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .bottom_click {
