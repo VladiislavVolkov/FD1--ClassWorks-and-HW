@@ -1,10 +1,17 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    padding: 0;
+    padding: 0; 
 }
+
 
 :link, :visited { 
     text-decoration: none;
     color: inherit;
+ }
+
+ html, body {
+    overflow: hidden;
+    overflow-y: hidden;  
+    overflow-x: hidden; 
  }
