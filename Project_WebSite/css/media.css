@@ -45,6 +45,9 @@
         height: 75px;
     }
 
+    .sect_content .sect_title {
+        top: 105px;
+    }
     .header_full  .menu_list {
         font-size: 0.85em;
         margin-left: 15px;

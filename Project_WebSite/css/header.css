@@ -2,6 +2,7 @@ header {
     position: sticky;
     top: 0;
     background: #ffffff;
+    z-index: 1009;
 }
 
 .header_full {

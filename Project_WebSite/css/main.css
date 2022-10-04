@@ -1,5 +1,6 @@
 main {
     background: #cbcbcb;
+    height: 2000px;
 }
 
 section {
@@ -24,6 +25,16 @@ section {
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
+    position: sticky;
+    top: 130px;
+}
+
+.b1 {    
+    background: #ededed;
+}
+
+.b2 {    
+    background: #ffffff;
 }
 
 .title_main {
@@ -56,7 +67,7 @@ section {
 }
 
 .sect_wrapper {
-    margin: 0 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
     display: flex;
     flex-direction: row;
     background: #ffffff;
@@ -104,21 +115,7 @@ section {
 .block_top {
     height: 170px;
     overflow: hidden;
-    position: relative;
- }
-
- .b1 {
-    background: #caaebd;
- }
-
- .block_border {
-    position: absolute;
-    width: 290px;
-    height: 150px;
-    margin: 10px;
-    border: #caaebd 5px solid;
-    top:0;
- }
+}
 
 .block_bottom {
     padding: 0 20px 20px 20px;
