@@ -188,3 +188,7 @@ section {
     align-items: center;
     justify-content: center;
 }
+.shops_brands img{
+    height: 40px;
+    padding: 5px;
+}
