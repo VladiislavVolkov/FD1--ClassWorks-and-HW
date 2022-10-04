@@ -30,11 +30,11 @@ section {
 }
 
 .b1 {    
-    background: #ededed;
+    background: #ededed !important;
 }
 
 .b2 {    
-    background: #ffffff;
+    background: #ffffff !important;
 }
 
 .title_main {
