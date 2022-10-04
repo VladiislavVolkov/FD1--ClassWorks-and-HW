@@ -102,8 +102,22 @@ section {
 }
 
 .block_top {
-    background: #cdcdcd;
     height: 170px;
+    overflow: hidden;
+    position: relative;
+ }
+
+ .b1 {
+    background: #caaebd;
+ }
+
+ .block_border {
+    position: absolute;
+    width: 290px;
+    height: 150px;
+    margin: 10px;
+    border: #caaebd 5px solid;
+    top:0;
  }
 
 .block_bottom {
