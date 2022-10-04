@@ -57,10 +57,12 @@ section {
     display: flex;
     flex-direction: row;
     background: #ffffff;
-    overflow-x: hidden;
+    overflow: auto;
 }
 
-/* .sect_wrapper::-webkit-scrollbar-x { width: 0; } */
+.sect_wrapper::-webkit-scrollbar { 
+    display: none;
+}
 
 .wrapper_title {
     padding: 15px;
