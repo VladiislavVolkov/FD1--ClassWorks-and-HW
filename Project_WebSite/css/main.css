@@ -18,7 +18,7 @@ section {
 }
 
 .sect_bg_3 {
-    background: #ffffff;
+    background: #e4dfd9;
 }
 
 .sect_title {
@@ -36,6 +36,11 @@ section {
 .b2 {    
     background: #ffffff !important;
 }
+
+.b3 {
+    background: #e4dfd9 !important;
+}
+
 
 .title_main {
     font-size: 18px;
@@ -167,4 +172,19 @@ section {
     padding: 10px;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 12px;
+}
+
+.sect_wrapper2 {
+    margin: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.shops_brands {
+    height: 50px;
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
 }

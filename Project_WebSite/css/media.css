@@ -58,6 +58,10 @@
         padding-right: 20px;
         margin-top: 30px;
     }
+
+    .sect_content .sect_wrapper2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media (max-width: 575px)  {
@@ -79,6 +83,9 @@
         flex-direction: column;
     }
 
+    .sect_content .sect_wrapper2 {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 519px)  {
