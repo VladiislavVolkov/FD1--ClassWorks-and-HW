@@ -62,6 +62,10 @@
     .sect_content .sect_wrapper2 {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .sect_wrapper_1 .wrapper_bg_2 {
+        min-height: 250px;
+    }
 }
 
 @media (max-width: 575px)  {
@@ -86,6 +90,14 @@
     .sect_content .sect_wrapper2 {
         grid-template-columns: 1fr 1fr;
     }
+
+    .title_name3 {
+        display: none;
+    }
+
+    .sect_wrapper_1 .wrapper_bg_2 {
+        min-height: 200px;
+    }
 }
 
 @media (max-width: 519px)  {
@@ -102,10 +114,6 @@
     .nav_top .mobile {
         display: flex;
     } 
-
-    .title_name3 {
-        display: none;
-    }
 
 }
 
