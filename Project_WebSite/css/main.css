@@ -56,13 +56,11 @@ section {
     margin: 0 20px 20px 20px;
     display: flex;
     flex-direction: row;
-    background: #ffffff;
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    background: #ffffff;overflow-x: ;
+    overflow-x: hidden;
 }
 
-.sect_wrapper::-webkit-scrollbar { width: 0; }
+/* .sect_wrapper::-webkit-scrollbar-x { width: 0; } */
 
 .wrapper_title {
     padding: 15px;
