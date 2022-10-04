@@ -79,9 +79,6 @@
         flex-direction: column;
     }
 
-    .sect_wrapper .wrapper_block:last-child {
-        display: none;
-    }
 }
 
 @media (max-width: 519px)  {
