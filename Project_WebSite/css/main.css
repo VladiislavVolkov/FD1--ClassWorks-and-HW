@@ -1,6 +1,5 @@
 main {
     background: #cbcbcb;
-    height: 800px;
 }
 
 section {
@@ -14,6 +13,10 @@ section {
 }
 
 .sect_bg_2 {
+    background: #ffffff;
+}
+
+.sect_bg_3 {
     background: #ffffff;
 }
 
@@ -89,7 +92,7 @@ section {
 .wrapper_block {
     border: 1px #dfdfdf solid;
     flex: 1;
-    min-width: 190px;
+    min-width: 230px;
     display: flex;
     flex-direction: column;
 }
@@ -100,7 +103,7 @@ section {
 
 .block_top {
     background: #cdcdcd;
-    height: 150px;
+    height: 170px;
  }
 
 .block_bottom {

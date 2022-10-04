@@ -1,0 +1,38 @@
+footer {
+    background: #393939;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.footer_left {
+    margin: 40px 0 40px 20px;
+    flex: 3;
+    color: rgb(245, 245, 245);
+    font-size: 0.73em;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.footer_right {
+    margin:20px;
+    flex: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social {
+    margin-left:20px;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+}
