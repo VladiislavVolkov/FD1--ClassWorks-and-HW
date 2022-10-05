@@ -30,7 +30,7 @@
         height: 51px;
         width: 200px;
         background: url('../img/logo_mini.png') no-repeat left;
-        background-size: contain;
+        background-size: contain ;
     }
 
     .nav_top .nav_top_right_mobile {
@@ -67,6 +67,10 @@
         display: none;
     }
 
+    .sect_content .wrapper_bg_4 {
+        min-height: 220px;
+     }
+
 }
 
 @media (max-width: 575px)  {
@@ -96,6 +100,10 @@
     .sect_wrapper .title_bottom {
         display: block;
     }
+
+    .sect_content .sect_wrapper5 {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 519px)  {
@@ -113,13 +121,20 @@
         display: flex;
     } 
 
+    .sect_content .wrapper_bg_4 {
+        min-height: 150px;
+     }
+
+    .wrapper_content .title_text3 {
+        display: none;
+     }
 }
 
 @media (max-width: 370px)  {
     .nav_bottom_menu .menu_list:not(:nth-child(-n+2)) {
          display: none;
     }
-   
+
 }
 
 @media (max-width: 300px)  {

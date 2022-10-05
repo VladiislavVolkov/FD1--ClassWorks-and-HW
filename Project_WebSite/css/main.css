@@ -1,6 +1,5 @@
 main {
     background: #cbcbcb;
-    height: 2000px;
 }
 
 section {
@@ -9,21 +8,25 @@ section {
     justify-content: center;
 }
 
-.sect_bg_1 {
+.sect_bg_1, .b1 {
     background: #ededed;
 }
 
-.sect_bg_2 {
+.sect_bg_2, .b2 {
     background: #ffffff;
 }
 
-.sect_bg_3 {
+.sect_bg_3, .b3 {
     background: #e4dfd9;
 }
 
 .sect_bg_4 {
     background: #724263;
-    padding: 20px;
+    padding-top:20px;
+}
+
+.sect_bg_5, .b5 {
+    background: #dedfe9;
 }
 
 .sect_title {
@@ -33,19 +36,6 @@ section {
     position: sticky;
     top: 130px;
 }
-
-.b1 {    
-    background: #ededed !important;
-}
-
-.b2 {    
-    background: #ffffff !important;
-}
-
-.b3 {
-    background: #e4dfd9 !important;
-}
-
 
 .title_main {
     font-size: 18px;
@@ -66,16 +56,6 @@ section {
     color: #393939;
 }
 
-.title_bottom {
-    font-size: 14px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    display: none;
-    background: #00a2b8;
-}
-
 .title_add:after {
     content: '';
     background-image: url('../img/arrow_1.png');
@@ -87,6 +67,16 @@ section {
     vertical-align: middle;
 }
 
+.title_bottom {
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    background: #00a2b8;
+}
+
 .sect_wrapper {
     margin: 0px 20px 20px 20px;
     display: flex;
@@ -95,15 +85,15 @@ section {
     overflow: auto;
 }
 
+.sect_wrapper::-webkit-scrollbar { 
+    display: none;
+}
+
 .wrapper_shadow {
     -webkit-box-shadow: 0px 0px 9px -3px rgba(34, 60, 80, 0.25);
     -moz-box-shadow: 0px 0px 9px -3px rgba(34, 60, 80, 0.25);
     box-shadow: 0px 0px 9px -3px rgba(34, 60, 80, 0.25);
     margin-bottom: 30px;
-}
-
-.sect_wrapper::-webkit-scrollbar { 
-    display: none;
 }
 
 .wrapper_title {
@@ -142,22 +132,29 @@ section {
 }
 
 .title_text1 {
-    font-size: calc(16px + 1.7vw);
+    font-size: calc(22px + 1vw);
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    padding: 0 10px 20px 10px;
-    margin: 20px 0;
+    padding: 0 0 0 20px;
     width: 50%;
+    position: sticky;
 }
 
 .title_text2 {
-    font-size: calc(10px + 1.2vw);
+    font-size: calc(9px + 0.9vw);
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    padding: 0 10px 20px 10px;
-    margin: 5px 20px 20px 0;
+    padding: 20px 0 20px 20px;
+    width: 50%;
+}
+
+.title_text3 {
+    font-size: calc(6px + 0.8vw);
+    font-family: 'Open Sans', sans-serif;
+    color: #dddddd;
+    padding: 0 0 20px 20px;
     width: 50%;
 }
 
@@ -171,12 +168,11 @@ section {
     min-height: 300px;
 }
 
-.wrapper_bg_2 {
-    background: #724263 url('../img/wrapper_2.jpg') no-repeat right;
+.wrapper_bg_4 {
+    background: #724263 url('../img/wrapper_2.jpg') bottom right no-repeat;
     background-size: contain;
-    min-height: 250px;
- 
-}
+    min-height: 300px;
+ }
 
 .wrapper_block {
     border: 1px #dfdfdf solid;
@@ -194,9 +190,17 @@ section {
     height: 170px;
     overflow: hidden;
 }
+.block_top img {
+    height: 100%;
+    width: 100%;
+}
 
 .block_bottom {
     padding: 0 20px 20px 20px;
+}
+
+.block_bottom:hover {
+     background: #ededed;
 }
 
 .bottom_text {
@@ -292,4 +296,45 @@ section {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 14px;
     border-top: #00a2b8 2px solid;
+}
+
+.sect_wrapper5 {
+    margin: 0 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 20px;
+}
+
+.sect_time {
+    border: #00a2b8 3px solid;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.sect_address {
+    border: #724263 3px solid;
+    padding: 20px;
+}
+
+.sect_time_title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #393939;
+    padding-bottom: 30px;    
+    grid-column: 1 / 3;
+}
+
+.sect_time_1, .sect_time_2, .sect_time_3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #393939; 
+    word-spacing: 9999px;
+}
+
+.sect_time_3 {
+    word-spacing: 0;
 }

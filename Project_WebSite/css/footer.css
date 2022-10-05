@@ -14,11 +14,32 @@ footer {
 .footer_left {
     margin: 40px 0 40px 20px;
     flex: 3;
-    color: rgb(245, 245, 245);
-    font-size: 0.73em;
-    text-transform: uppercase;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.footer_left img{
+    width: 15px;
+    margin-right: 12px;
+}
+
+.footer_t_1 {
+    color: rgb(245, 245, 245);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.footer_t_2, .footer_t_3 {
+    color: rgb(245, 245, 245);
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_t_2 {
+    padding: 17px 0;
+}
+
 
 .footer_right {
     margin:20px;
