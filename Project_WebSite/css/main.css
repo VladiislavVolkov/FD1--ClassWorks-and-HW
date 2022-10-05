@@ -23,7 +23,7 @@ section {
 
 .sect_bg_4 {
     background: #724263;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .sect_title {
@@ -66,6 +66,16 @@ section {
     color: #393939;
 }
 
+.title_bottom {
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    background: #00a2b8;
+}
+
 .title_add:after {
     content: '';
     background-image: url('../img/arrow_1.png');
@@ -97,36 +107,58 @@ section {
 }
 
 .wrapper_title {
-    padding: 15px;
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:#00a2b8 7px solid;
 }
 
 .title_name1 {
-    font-size: 36px;
+    font-size: calc(22px + 1vw);
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #393939;
-    margin-bottom: 15px;
     background-color: #dfdfdf;
-    padding: 10px;
+    padding: 20px 10px 20px 10px;
+    margin: 15px 0 15px 0;
 }
 
 .title_name2 {
-    font-size: 24px;
+    font-size: calc(14px + 0.4vw);
     text-transform: uppercase;
     font-family: sans-serif;
     color: #393939;
-    margin-bottom: 15px;
+    padding: 15px;
 }
 
 .title_name3 {
-    font-size: 14px;
+    font-size: calc(10px + 0.3vw);
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    border: #393939 1px solid;
     background-color: #00a2b8;
-    padding: 5px;
+    padding: 2px 15px 2px 15px;
+}
+
+.title_text1 {
+    font-size: calc(16px + 1.7vw);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 0 10px 20px 10px;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.title_text2 {
+    font-size: calc(10px + 1.2vw);
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding: 0 10px 20px 10px;
+    margin: 5px 20px 20px 0;
+    width: 50%;
 }
 
 .wrapper_content {
@@ -142,7 +174,8 @@ section {
 .wrapper_bg_2 {
     background: #724263 url('../img/wrapper_2.jpg') no-repeat right;
     background-size: contain;
-    min-height: 300px;
+    min-height: 250px;
+ 
 }
 
 .wrapper_block {
@@ -225,7 +258,7 @@ section {
 .service {
     background: #e4dfd9;
     flex: 1;
-    min-width: 150px;
+    min-width: 130px;
     display: flex;
     flex-direction: column;
 } 
@@ -235,7 +268,7 @@ section {
 }
 
 .service_bottom {
-    padding: 0 10px 10px 10px;
+    padding: 0 8px 10px 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;

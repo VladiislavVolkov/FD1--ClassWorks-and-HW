@@ -63,9 +63,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .sect_wrapper_1 .wrapper_bg_2 {
-        min-height: 250px;
+    .title_name3 {
+        display: none;
     }
+
 }
 
 @media (max-width: 575px)  {
@@ -81,6 +82,7 @@
     .sect_wrapper .wrapper_title {
         flex-direction: row;
         justify-content: space-between;
+        border:0;
     }
 
     .sect_bg_1 .sect_content .sect_wrapper {
@@ -91,12 +93,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .title_name3 {
-        display: none;
-    }
-
-    .sect_wrapper_1 .wrapper_bg_2 {
-        min-height: 200px;
+    .sect_wrapper .title_bottom {
+        display: block;
     }
 }
 
