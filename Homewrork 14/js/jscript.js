@@ -12,7 +12,7 @@ let obj1 = {
 
 let obj2 = {
 	namee: 'Dima',
-	age: 20,
+	age: 30,
 	hair: 'white',
 	habitats: {
 		isSmoking: false,
@@ -22,25 +22,26 @@ let obj2 = {
 	}
 }
 
+function compare(obj1, obj2) {
+	const a = Object.getOwnPropertyNames(obj1);
+	const b = Object.getOwnPropertyNames(obj2);
+  
+	if (a.length !== b.length) {
+	  return false;
+	}
+  
+	for (let i = 0; i < a.length; i += 1) {
+	  const c = a[i];
+	  const d = typeof(obj1[c]) === 'object' && typeof(obj2[c]) === 'object';
+  
+	  if ((!d && (obj1[c] !== obj2[c]))
+	  || (d && !compare(obj1[c], obj2[c]))) {
+		return false;
+	  }
+	}
+  
+	return true;
+	
+  }
 
-function compare (obj1, obj2) {
-    
-        for(let key in obj1){
-            if(obj1.hasOwnProperty(key)){
-                if(obj1[key] !== obj2[key]){
-                    return false;
-                }
-            }
-        }
-        for(let key in obj2){
-            if(obj2.hasOwnProperty(key)){
-                if(obj1[key] !== obj2[key]){
-                    return false;
-                }
-            }
-        }
-        return true;
-    };
-
-
-console.log(obj1 == obj2)
+  console.log(compare(obj1, obj2));
