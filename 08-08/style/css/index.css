@@ -1,0 +1,86 @@
+caption {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+}
+
+td {
+    height: 50px;
+}
+
+th {
+    height: 50px;
+    border: 1px rgb(179, 175, 175) solid;
+    background: rgb(88, 88, 88);
+    text-align: left;
+    padding: 0px 20px;
+    color: white;
+}
+
+.th0 {
+    width: 150px;
+    height: 50px;
+    border: 1px rgb(179, 175, 175) solid;
+    background: rgb(17, 17, 17);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tr0 {
+    width: 150px;
+    height: 50px;
+    border: 1px rgb(179, 175, 175) solid;
+    background: rgb(88, 88, 88);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tr01 {
+    width: 150px;
+    height: 50px;
+    border: 3px rgb(146, 20, 104) solid;
+    border-bottom: none;
+    background: rgb(88, 88, 88);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.td2 {
+    width: 150px;
+    height: 50px;
+    background: rgb(194, 183, 84);
+    text-align: left;
+    padding-left: 20px;
+    border-left: 3px rgb(146, 20, 104) solid;
+    border-right: 3px rgb(146, 20, 104) solid;
+    border-top: none;
+}
+
+.td3 {
+    width: 150px;
+    height: 50px;
+    background: rgb(194, 183, 84);
+    text-align: left;
+    padding-left: 20px;
+    border-left: 3px rgb(146, 20, 104) solid;
+    border-right: 3px rgb(146, 20, 104) solid;
+    border-bottom: 3px rgb(146, 20, 104) solid;
+    border-top: none;
+}
+
+.td1 {
+    width: 150px;
+    height: 50px;
+    border: 1px rgb(179, 175, 175) solid;
+    background: rgb(104, 180, 127);
+    text-align: left;
+    padding-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
