@@ -1,0 +1,16 @@
+.red {
+    background: red;
+    width: 20px;
+    height: 20px;
+}
+
+.circle {
+    background: rgb(143, 147, 148);
+    height: 100px;
+    width: 100px;
+    overflow: scroll;
+    border: 5px solid rgb(132, 197, 197);
+    margin: 30px;
+
+    font-size: 30px;
+}
